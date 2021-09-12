@@ -1,4 +1,4 @@
-package io.setud.se_newspaper.models.concretes.tienphong;
+package io.setud.se_newspaper.models.concretes.vtcnews;
 
 import io.setud.se_newspaper.models.categories.World;
 
@@ -8,12 +8,12 @@ import io.setud.se_newspaper.models.categories.World;
  * Date 11/09/2021 - 22:42
  * Description: ...
  */
-public class TienPhongWorld extends World {
-    public TienPhongWorld() {
+public class VtcNewsWorld extends World {
+    public VtcNewsWorld() {
         super();
     }
 
-    public TienPhongWorld(String urlSource) throws Exception {
+    public VtcNewsWorld(String urlSource) throws Exception {
         super(urlSource);
     }
 }

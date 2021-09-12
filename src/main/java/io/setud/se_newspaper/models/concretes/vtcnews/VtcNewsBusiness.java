@@ -1,4 +1,4 @@
-package io.setud.se_newspaper.models.concretes.zingnews;
+package io.setud.se_newspaper.models.concretes.vtcnews;
 
 import io.setud.se_newspaper.models.categories.Business;
 
@@ -8,12 +8,12 @@ import io.setud.se_newspaper.models.categories.Business;
  * Date 11/09/2021 - 22:25
  * Description: ...
  */
-public class ZingNewsBusiness extends Business {
-    public ZingNewsBusiness() {
+public class VtcNewsBusiness extends Business {
+    public VtcNewsBusiness() {
         super();
     }
 
-    public ZingNewsBusiness(String urlSource) throws Exception {
+    public VtcNewsBusiness(String urlSource) throws Exception {
         super(urlSource);
     }
 }

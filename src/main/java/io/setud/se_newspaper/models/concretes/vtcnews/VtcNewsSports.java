@@ -1,4 +1,4 @@
-package io.setud.se_newspaper.models.concretes.zingnews;
+package io.setud.se_newspaper.models.concretes.vtcnews;
 
 import io.setud.se_newspaper.models.categories.Sports;
 
@@ -8,12 +8,12 @@ import io.setud.se_newspaper.models.categories.Sports;
  * Date 11/09/2021 - 22:41
  * Description: ...
  */
-public class ZingNewsSports extends Sports {
-    public ZingNewsSports() {
+public class VtcNewsSports extends Sports {
+    public VtcNewsSports() {
         super();
     }
 
-    public ZingNewsSports(String urlSource) throws Exception {
+    public VtcNewsSports(String urlSource) throws Exception {
         super(urlSource);
     }
 }

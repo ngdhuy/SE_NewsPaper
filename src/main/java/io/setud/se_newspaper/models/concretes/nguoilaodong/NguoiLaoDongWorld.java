@@ -1,4 +1,4 @@
-package io.setud.se_newspaper.models.concretes.zingnews;
+package io.setud.se_newspaper.models.concretes.nguoilaodong;
 
 import io.setud.se_newspaper.models.categories.World;
 
@@ -8,12 +8,12 @@ import io.setud.se_newspaper.models.categories.World;
  * Date 11/09/2021 - 22:42
  * Description: ...
  */
-public class ZingNewsWorld extends World {
-    public ZingNewsWorld() {
+public class NguoiLaoDongWorld extends World {
+    public NguoiLaoDongWorld() {
         super();
     }
 
-    public ZingNewsWorld(String urlSource) throws Exception {
+    public NguoiLaoDongWorld(String urlSource) throws Exception {
         super(urlSource);
     }
 }

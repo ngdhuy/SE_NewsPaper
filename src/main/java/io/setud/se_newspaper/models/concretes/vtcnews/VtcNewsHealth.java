@@ -1,4 +1,4 @@
-package io.setud.se_newspaper.models.concretes.tienphong;
+package io.setud.se_newspaper.models.concretes.vtcnews;
 
 import io.setud.se_newspaper.models.categories.Health;
 
@@ -8,12 +8,12 @@ import io.setud.se_newspaper.models.categories.Health;
  * Date 11/09/2021 - 22:36
  * Description: ...
  */
-public class TienPhongHealth extends Health {
-    public TienPhongHealth() {
+public class VtcNewsHealth extends Health {
+    public VtcNewsHealth() {
         super();
     }
 
-    public TienPhongHealth(String urlSource) throws Exception {
+    public VtcNewsHealth(String urlSource) throws Exception {
         super(urlSource);
     }
 }

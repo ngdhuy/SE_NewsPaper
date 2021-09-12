@@ -1,4 +1,4 @@
-package io.setud.se_newspaper.models.concretes.zingnews;
+package io.setud.se_newspaper.models.concretes.vtcnews;
 
 import io.setud.se_newspaper.models.categories.Politics;
 
@@ -8,12 +8,12 @@ import io.setud.se_newspaper.models.categories.Politics;
  * Date 11/09/2021 - 22:39
  * Description: ...
  */
-public class ZingNewsPolitics extends Politics {
-    public ZingNewsPolitics() {
+public class VtcNewsPolitics extends Politics {
+    public VtcNewsPolitics() {
         super();
     }
 
-    public ZingNewsPolitics(String urlSource) throws Exception {
+    public VtcNewsPolitics(String urlSource) throws Exception {
         super(urlSource);
     }
 }

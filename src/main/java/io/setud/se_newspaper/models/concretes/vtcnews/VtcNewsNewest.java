@@ -1,4 +1,4 @@
-package io.setud.se_newspaper.models.concretes.zingnews;
+package io.setud.se_newspaper.models.concretes.vtcnews;
 
 import io.setud.se_newspaper.models.categories.Newest;
 
@@ -8,12 +8,12 @@ import io.setud.se_newspaper.models.categories.Newest;
  * Date 11/09/2021 - 22:11
  * Description: ...
  */
-public class ZingNewsNewest extends Newest {
-    public ZingNewsNewest() {
+public class VtcNewsNewest extends Newest {
+    public VtcNewsNewest() {
         super();
     }
 
-    public ZingNewsNewest(String urlSource) throws Exception {
+    public VtcNewsNewest(String urlSource) throws Exception {
         super(urlSource);
     }
 }

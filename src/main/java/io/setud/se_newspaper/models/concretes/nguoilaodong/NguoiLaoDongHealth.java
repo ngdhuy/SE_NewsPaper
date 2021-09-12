@@ -1,4 +1,4 @@
-package io.setud.se_newspaper.models.concretes.zingnews;
+package io.setud.se_newspaper.models.concretes.nguoilaodong;
 
 import io.setud.se_newspaper.models.categories.Health;
 
@@ -8,12 +8,12 @@ import io.setud.se_newspaper.models.categories.Health;
  * Date 11/09/2021 - 22:36
  * Description: ...
  */
-public class ZingNewsHealth extends Health {
-    public ZingNewsHealth() {
+public class NguoiLaoDongHealth extends Health {
+    public NguoiLaoDongHealth() {
         super();
     }
 
-    public ZingNewsHealth(String urlSource) throws Exception {
+    public NguoiLaoDongHealth(String urlSource) throws Exception {
         super(urlSource);
     }
 }

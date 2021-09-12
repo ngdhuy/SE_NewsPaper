@@ -1,4 +1,4 @@
-package io.setud.se_newspaper.models.concretes.tienphong;
+package io.setud.se_newspaper.models.concretes.nguoilaodong;
 
 import io.setud.se_newspaper.models.categories.Business;
 
@@ -8,12 +8,12 @@ import io.setud.se_newspaper.models.categories.Business;
  * Date 11/09/2021 - 22:25
  * Description: ...
  */
-public class TienPhongBusiness extends Business {
-    public TienPhongBusiness() {
+public class NguoiLaoDongBusiness extends Business {
+    public NguoiLaoDongBusiness() {
         super();
     }
 
-    public TienPhongBusiness(String urlSource) throws Exception {
+    public NguoiLaoDongBusiness(String urlSource) throws Exception {
         super(urlSource);
     }
 }

@@ -1,4 +1,4 @@
-package io.setud.se_newspaper.models.concretes.tienphong;
+package io.setud.se_newspaper.models.concretes.nguoilaodong;
 
 import io.setud.se_newspaper.models.categories.Entertainment;
 
@@ -8,12 +8,12 @@ import io.setud.se_newspaper.models.categories.Entertainment;
  * Date 11/09/2021 - 22:33
  * Description: ...
  */
-public class TienPhongEntertainment extends Entertainment {
-    public TienPhongEntertainment() {
+public class NguoiLaoDongEntertainment extends Entertainment {
+    public NguoiLaoDongEntertainment() {
         super();
     }
 
-    public TienPhongEntertainment(String urlSource) throws Exception {
+    public NguoiLaoDongEntertainment(String urlSource) throws Exception {
         super(urlSource);
     }
 }

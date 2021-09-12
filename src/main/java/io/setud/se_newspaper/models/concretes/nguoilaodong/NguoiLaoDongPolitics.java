@@ -1,4 +1,4 @@
-package io.setud.se_newspaper.models.concretes.tienphong;
+package io.setud.se_newspaper.models.concretes.nguoilaodong;
 
 import io.setud.se_newspaper.models.categories.Politics;
 
@@ -8,12 +8,12 @@ import io.setud.se_newspaper.models.categories.Politics;
  * Date 11/09/2021 - 22:39
  * Description: ...
  */
-public class TienPhongPolitics extends Politics {
-    public TienPhongPolitics() {
+public class NguoiLaoDongPolitics extends Politics {
+    public NguoiLaoDongPolitics() {
         super();
     }
 
-    public TienPhongPolitics(String urlSource) throws Exception {
+    public NguoiLaoDongPolitics(String urlSource) throws Exception {
         super(urlSource);
     }
 }

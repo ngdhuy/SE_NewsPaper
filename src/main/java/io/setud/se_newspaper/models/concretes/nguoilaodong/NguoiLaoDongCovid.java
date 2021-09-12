@@ -1,4 +1,4 @@
-package io.setud.se_newspaper.models.concretes.tienphong;
+package io.setud.se_newspaper.models.concretes.nguoilaodong;
 
 import io.setud.se_newspaper.models.categories.Covid;
 
@@ -8,12 +8,12 @@ import io.setud.se_newspaper.models.categories.Covid;
  * Date 11/09/2021 - 22:32
  * Description: ...
  */
-public class TienPhongCovid extends Covid {
-    public TienPhongCovid() {
+public class NguoiLaoDongCovid extends Covid {
+    public NguoiLaoDongCovid() {
         super();
     }
 
-    public TienPhongCovid(String urlSource) throws Exception {
+    public NguoiLaoDongCovid(String urlSource) throws Exception {
         super(urlSource);
     }
 }

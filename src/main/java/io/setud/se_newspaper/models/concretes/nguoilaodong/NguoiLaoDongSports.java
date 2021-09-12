@@ -1,4 +1,4 @@
-package io.setud.se_newspaper.models.concretes.tienphong;
+package io.setud.se_newspaper.models.concretes.nguoilaodong;
 
 import io.setud.se_newspaper.models.categories.Sports;
 
@@ -8,12 +8,12 @@ import io.setud.se_newspaper.models.categories.Sports;
  * Date 11/09/2021 - 22:41
  * Description: ...
  */
-public class TienPhongSports extends Sports {
-    public TienPhongSports() {
+public class NguoiLaoDongSports extends Sports {
+    public NguoiLaoDongSports() {
         super();
     }
 
-    public TienPhongSports(String urlSource) throws Exception {
+    public NguoiLaoDongSports(String urlSource) throws Exception {
         super(urlSource);
     }
 }

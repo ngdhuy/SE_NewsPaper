@@ -82,7 +82,7 @@ public class News {
         String sNews = "";
         sNews += "Title: " + this.title + "\n";
         sNews += "Link: " + this.link + "\n";
-        sNews += "Date: " + this.date.toString() + "\n";
+        sNews += (this.date != null) ? "Date: " + this.date.toString() + "\n" : "";
         sNews += "Image: " + this.urlThumbnail;
         return sNews;
     }
