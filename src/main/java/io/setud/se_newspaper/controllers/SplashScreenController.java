@@ -22,9 +22,6 @@ public class SplashScreenController implements Initializable {
     private StackPane root;
 
     @FXML
-    private ImageView imageView;
-
-    @FXML
     private ProgressBar progressBar;
     public static ProgressBar progressBarStatic;
 

@@ -43,13 +43,11 @@ public class MainScreenController implements Initializable {
             StackPane pane = FXMLLoader.load(Main.class.getResource("SplashScreen.fxml"));
             root.getChildren().setAll(pane);
 
-            //Load splash screen with fade in effect
             FadeTransition fadeIn = new FadeTransition(Duration.seconds(3), pane);
             fadeIn.setFromValue(0);
             fadeIn.setToValue(1);
             fadeIn.setCycleCount(1);
 
-            //Finish splash with fade out effect
             FadeTransition fadeOut = new FadeTransition(Duration.seconds(3), pane);
             fadeOut.setFromValue(1);
             fadeOut.setToValue(0);
@@ -57,12 +55,10 @@ public class MainScreenController implements Initializable {
 
             fadeIn.play();
 
-            //After fade in, start fade out
             fadeIn.setOnFinished((e) -> {
                 fadeOut.play();
             });
 
-            //After fade out, load actual content
             fadeOut.setOnFinished((e) -> {
                 root.getChildren().remove(pane);
                 try {
