@@ -7,7 +7,10 @@ module io.setud.se_newspaper {
     requires org.kordamp.bootstrapfx.core;
     requires com.rometools.rome;
     requires java.xml;
+    requires java.logging;
 
     opens io.setud.se_newspaper to javafx.fxml;
     exports io.setud.se_newspaper;
+    exports io.setud.se_newspaper.controllers;
+    opens io.setud.se_newspaper.controllers to javafx.fxml;
 }

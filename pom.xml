@@ -98,7 +98,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>io.setud.se_newspaper/io.setud.se_newspaper.HelloApplication</mainClass>
+                            <mainClass>io.setud.se_newspaper/io.setud.se_newspaper.Main</mainClass>
                         </configuration>
                     </execution>
                 </executions>
