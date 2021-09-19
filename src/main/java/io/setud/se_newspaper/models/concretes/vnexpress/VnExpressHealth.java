@@ -14,7 +14,7 @@ public class VnExpressHealth extends Health {
         super();
     }
 
-    public VnExpressHealth(String urlSource) throws Exception {
-        super(urlSource);
+    public VnExpressHealth(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

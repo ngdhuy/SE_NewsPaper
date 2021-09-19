@@ -13,7 +13,7 @@ public class NguoiLaoDongPolitics extends Politics {
         super();
     }
 
-    public NguoiLaoDongPolitics(String urlSource) throws Exception {
-        super(urlSource);
+    public NguoiLaoDongPolitics(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

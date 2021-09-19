@@ -14,7 +14,7 @@ public abstract class World extends Category {
         super.setName("World");
     }
 
-    public World(String urlSource) throws Exception {
-        super("World", urlSource);
+    public World(String urlSource, String brand) throws Exception {
+        super("World", urlSource, brand);
     }
 }

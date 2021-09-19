@@ -13,4 +13,6 @@ module io.setud.se_newspaper {
     exports io.setud.se_newspaper;
     exports io.setud.se_newspaper.controllers;
     opens io.setud.se_newspaper.controllers to javafx.fxml;
+    exports io.setud.se_newspaper.util;
+    opens io.setud.se_newspaper.util to javafx.fxml;
 }

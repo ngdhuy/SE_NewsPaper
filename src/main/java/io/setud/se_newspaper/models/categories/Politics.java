@@ -14,7 +14,7 @@ public abstract class Politics extends Category {
         super.setName("Politics");
     }
 
-    public Politics(String urlSource) throws Exception {
-        super("Politics", urlSource);
+    public Politics(String urlSource, String brand) throws Exception {
+        super("Politics", urlSource, brand);
     }
 }

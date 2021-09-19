@@ -14,7 +14,7 @@ public abstract class Technology extends Category {
         super.setName("Technology");
     }
 
-    public Technology(String urlSource) throws Exception {
-        super("Technology", urlSource);
+    public Technology(String urlSource, String brand) throws Exception {
+        super("Technology", urlSource, brand);
     }
 }

@@ -13,7 +13,7 @@ public class VtcNewsPolitics extends Politics {
         super();
     }
 
-    public VtcNewsPolitics(String urlSource) throws Exception {
-        super(urlSource);
+    public VtcNewsPolitics(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

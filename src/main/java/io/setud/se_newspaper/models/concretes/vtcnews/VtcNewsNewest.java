@@ -13,7 +13,7 @@ public class VtcNewsNewest extends Newest {
         super();
     }
 
-    public VtcNewsNewest(String urlSource) throws Exception {
-        super(urlSource);
+    public VtcNewsNewest(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

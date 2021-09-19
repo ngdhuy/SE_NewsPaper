@@ -13,7 +13,7 @@ public class VnExpressBusiness extends Business {
         super();
     }
 
-    public VnExpressBusiness(String urlSource) throws Exception {
-        super(urlSource);
+    public VnExpressBusiness(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

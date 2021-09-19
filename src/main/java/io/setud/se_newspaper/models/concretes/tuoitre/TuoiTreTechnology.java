@@ -13,7 +13,7 @@ public class TuoiTreTechnology extends Technology {
         super();
     }
 
-    public TuoiTreTechnology(String urlSource) throws Exception {
-        super(urlSource);
+    public TuoiTreTechnology(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

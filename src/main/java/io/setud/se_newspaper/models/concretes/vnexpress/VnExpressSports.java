@@ -13,7 +13,7 @@ public class VnExpressSports extends Sports {
         super();
     }
 
-    public VnExpressSports(String urlSource) throws Exception {
-        super(urlSource);
+    public VnExpressSports(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

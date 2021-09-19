@@ -13,7 +13,7 @@ public class VtcNewsCovid extends Covid {
         super();
     }
 
-    public VtcNewsCovid(String urlSource) throws Exception {
-        super(urlSource);
+    public VtcNewsCovid(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

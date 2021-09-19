@@ -13,7 +13,7 @@ public class VtcNewsEntertainment extends Entertainment {
         super();
     }
 
-    public VtcNewsEntertainment(String urlSource) throws Exception {
-        super(urlSource);
+    public VtcNewsEntertainment(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

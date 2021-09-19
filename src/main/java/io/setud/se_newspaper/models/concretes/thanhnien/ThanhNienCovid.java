@@ -13,7 +13,7 @@ public class ThanhNienCovid extends Covid {
         super();
     }
 
-    public ThanhNienCovid(String urlSource) throws Exception {
-        super(urlSource);
+    public ThanhNienCovid(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

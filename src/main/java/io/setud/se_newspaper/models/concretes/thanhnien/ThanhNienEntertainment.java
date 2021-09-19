@@ -13,7 +13,7 @@ public class ThanhNienEntertainment extends Entertainment {
         super();
     }
 
-    public ThanhNienEntertainment(String urlSource) throws Exception {
-        super(urlSource);
+    public ThanhNienEntertainment(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

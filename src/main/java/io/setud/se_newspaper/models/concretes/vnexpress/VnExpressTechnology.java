@@ -13,7 +13,7 @@ public class VnExpressTechnology extends Technology {
         super();
     }
 
-    public VnExpressTechnology(String urlSource) throws Exception {
-        super(urlSource);
+    public VnExpressTechnology(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

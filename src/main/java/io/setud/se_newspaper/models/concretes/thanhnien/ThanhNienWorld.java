@@ -13,7 +13,7 @@ public class ThanhNienWorld extends World {
         super();
     }
 
-    public ThanhNienWorld(String urlSource) throws Exception {
-        super(urlSource);
+    public ThanhNienWorld(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

@@ -13,7 +13,7 @@ public class VtcNewsTechnology extends Technology {
         super();
     }
 
-    public VtcNewsTechnology(String urlSource) throws Exception {
-        super(urlSource);
+    public VtcNewsTechnology(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

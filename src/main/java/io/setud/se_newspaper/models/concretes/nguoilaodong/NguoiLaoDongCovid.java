@@ -13,7 +13,7 @@ public class NguoiLaoDongCovid extends Covid {
         super();
     }
 
-    public NguoiLaoDongCovid(String urlSource) throws Exception {
-        super(urlSource);
+    public NguoiLaoDongCovid(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

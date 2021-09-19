@@ -13,7 +13,7 @@ public class TuoiTreOthers extends Others {
         super();
     }
 
-    public TuoiTreOthers(String urlSource) throws Exception {
-        super(urlSource);
+    public TuoiTreOthers(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

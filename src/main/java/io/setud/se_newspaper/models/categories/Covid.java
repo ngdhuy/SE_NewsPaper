@@ -14,7 +14,7 @@ public abstract class Covid extends Category {
         super.setName("Covid");
     }
 
-    public Covid(String urlSource) throws Exception {
-        super("Covid", urlSource);
+    public Covid(String urlSource, String brand) throws Exception {
+        super("Covid", urlSource, brand);
     }
 }

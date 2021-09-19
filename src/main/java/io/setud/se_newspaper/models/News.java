@@ -17,6 +17,8 @@ public class News {
     private String link;
     private Date date;
     private String urlThumbnail;
+    private String brand;
+    private String urlBrandLogo;
 
     public News() {
         this.title = "";
@@ -25,17 +27,20 @@ public class News {
         this.urlThumbnail = "";
     }
 
-    public News(String title, String link, Date date, String urlThumbnail) {
+    public News(String title, String link, Date date, String urlThumbnail, String brand, String urlBrandLogo) {
         this.title = title;
         this.link = link;
         this.date = date;
         this.urlThumbnail = urlThumbnail;
+        this.brand = brand;
     }
 
-    public News(SyndEntry entry) {
+    public News(SyndEntry entry, String brand) {
         this.title = entry.getTitle();
         this.link = entry.getLink();
         this.date = entry.getPublishedDate();
+
+        this.brand = brand;
 
         String description = entry.getDescription().getValue();
         String regex = "src=\"(.*?)\"";
@@ -76,6 +81,14 @@ public class News {
 
     public void setUrlThumbnail(String urlThumbnail) {
         this.urlThumbnail = urlThumbnail;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
     }
 
     public String toString() {

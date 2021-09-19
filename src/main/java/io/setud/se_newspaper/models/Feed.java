@@ -26,15 +26,19 @@ import java.util.List;
  */
 public class Feed {
     private String urlSource;
+    private String brand;
     private ArrayList<News> lstNews;
 
     public Feed() {
         this.urlSource = "";
+        this.brand = "";
+        this.urlSource = "";
         this.lstNews = new ArrayList<News>();
     }
 
-    public Feed(String urlSource) throws Exception {
+    public Feed(String urlSource, String brand) throws Exception {
         this.urlSource = urlSource;
+        this.brand = brand;
         this.lstNews = new ArrayList<News>();
         if(this.urlSource != null && this.urlSource.length() > 0)
             this.loadData();
@@ -48,6 +52,14 @@ public class Feed {
         this.urlSource = urlSource;
         if(this.urlSource.length() > 0)
             this.loadData();
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
     }
 
     public ArrayList<News> getLstNews() {
@@ -64,7 +76,7 @@ public class Feed {
             SyndFeedInput syndFeedInput = new SyndFeedInput();
             SyndFeed syndFeed = syndFeedInput.build(new XmlReader(feedUrl));
             for(SyndEntry entry : (List<SyndEntry>) syndFeed.getEntries()) {
-                News news = new News(entry);
+                News news = new News(entry, this.brand);
                 this.lstNews.add(news);
             }
         }

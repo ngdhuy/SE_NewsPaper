@@ -13,7 +13,7 @@ public class VtcNewsOthers extends Others {
         super();
     }
 
-    public VtcNewsOthers(String urlSource) throws Exception {
-        super(urlSource);
+    public VtcNewsOthers(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

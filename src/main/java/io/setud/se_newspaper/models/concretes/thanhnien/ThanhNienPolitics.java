@@ -13,7 +13,7 @@ public class ThanhNienPolitics extends Politics {
         super();
     }
 
-    public ThanhNienPolitics(String urlSource) throws Exception {
-        super(urlSource);
+    public ThanhNienPolitics(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

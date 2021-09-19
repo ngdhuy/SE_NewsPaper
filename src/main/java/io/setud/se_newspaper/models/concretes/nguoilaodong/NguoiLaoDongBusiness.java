@@ -13,7 +13,7 @@ public class NguoiLaoDongBusiness extends Business {
         super();
     }
 
-    public NguoiLaoDongBusiness(String urlSource) throws Exception {
-        super(urlSource);
+    public NguoiLaoDongBusiness(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

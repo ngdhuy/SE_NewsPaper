@@ -13,7 +13,7 @@ public class VnExpressWorld extends World {
         super();
     }
 
-    public VnExpressWorld(String urlSource) throws Exception {
-        super(urlSource);
+    public VnExpressWorld(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

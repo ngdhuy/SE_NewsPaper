@@ -13,7 +13,7 @@ public class NguoiLaoDongSports extends Sports {
         super();
     }
 
-    public NguoiLaoDongSports(String urlSource) throws Exception {
-        super(urlSource);
+    public NguoiLaoDongSports(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

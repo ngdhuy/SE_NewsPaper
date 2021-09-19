@@ -14,7 +14,7 @@ public abstract class Business extends Category {
         super.setName("Business");
     }
 
-    public Business(String urlSource) throws Exception {
-        super("Business", urlSource);
+    public Business(String urlSource, String brand) throws Exception {
+        super("Business", urlSource, brand);
     }
 }

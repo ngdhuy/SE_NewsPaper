@@ -13,7 +13,7 @@ public class TuoiTrePolitics extends Politics {
         super();
     }
 
-    public TuoiTrePolitics(String urlSource) throws Exception {
-        super(urlSource);
+    public TuoiTrePolitics(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

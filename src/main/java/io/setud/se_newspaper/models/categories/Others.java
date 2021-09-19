@@ -14,7 +14,7 @@ public abstract class Others extends Category {
         super.setName("Other");
     }
 
-    public Others(String urlSource) throws Exception {
-        super("Other", urlSource);
+    public Others(String urlSource, String brand) throws Exception {
+        super("Other", urlSource, brand);
     }
 }

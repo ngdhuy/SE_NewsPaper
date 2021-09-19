@@ -14,7 +14,7 @@ public abstract class Sports extends Category{
         super.setName("Sports");
     }
 
-    public Sports(String urlSource) throws Exception {
-        super("Sports", urlSource);
+    public Sports(String urlSource, String brand) throws Exception {
+        super("Sports", urlSource, brand);
     }
 }

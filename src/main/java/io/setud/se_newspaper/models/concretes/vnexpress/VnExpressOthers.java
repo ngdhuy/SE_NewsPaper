@@ -13,7 +13,7 @@ public class VnExpressOthers extends Others {
         super();
     }
 
-    public VnExpressOthers(String urlSource) throws Exception {
-        super(urlSource);
+    public VnExpressOthers(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

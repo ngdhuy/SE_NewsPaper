@@ -13,7 +13,7 @@ public class VnExpressCovid extends Covid {
         super();
     }
 
-    public VnExpressCovid(String urlSource) throws Exception {
-        super(urlSource);
+    public VnExpressCovid(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

@@ -1,17 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.StackPane?>
-<StackPane xmlns:fx="http://javafx.com/fxml"
-           fx:id="root"
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.ScrollPane?>
+<StackPane fx:id="root"
+           xmlns="http://javafx.com/javafx/16"
+           xmlns:fx="http://javafx.com/fxml/1"
+           stylesheets="@css/MainScreen.css"
            fx:controller="io.setud.se_newspaper.controllers.MainScreenController">
     <children>
-        <Label fx:id="welcomeText"/>
-        <Button text="Hello!" onAction="#onHelloButtonClick"/>
+        <VBox>
+         <children>
+            <HBox fx:id="banner" alignment="CENTER_RIGHT">
+               <children>
+                  <ImageView fitHeight="250.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/main_banner.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <TabPane tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Newest">
+                  <content>
+                      <ScrollPane>
+                          <VBox fx:id="vNewest"></VBox>
+                      </ScrollPane>
+                  </content>
+                </Tab>
+                <Tab text="Business">
+                  <content>
+                      <ScrollPane>
+                          <VBox fx:id="vBusiness"></VBox>
+                      </ScrollPane>
+                  </content>
+                </Tab>
+                  <Tab text="Entertainment">
+                    <content>
+                        <ScrollPane>
+                            <VBox fx:id="vEntertainment"></VBox>
+                        </ScrollPane>
+                    </content>
+                  </Tab>
+                  <Tab text="Health">
+                    <content>
+                        <ScrollPane>
+                            <VBox fx:id="vHealth"></VBox>
+                        </ScrollPane>
+                    </content>
+                  </Tab>
+                  <Tab text="Politics">
+                    <content>
+                        <ScrollPane>
+                            <VBox fx:id="vPolitics"></VBox>
+                        </ScrollPane>
+                    </content>
+                  </Tab>
+                  <Tab text="Sports">
+                    <content>
+                        <ScrollPane>
+                            <VBox fx:id="vSports"></VBox>
+                        </ScrollPane>
+                    </content>
+                  </Tab>
+                  <Tab text="World">
+                    <content>
+                        <ScrollPane>
+                            <VBox fx:id="vWorld"></VBox>
+                        </ScrollPane>
+                    </content>
+                  </Tab>
+                  <Tab text="Technology">
+                    <content>
+                        <ScrollPane>
+                            <VBox fx:id="vTechnology"></VBox>
+                        </ScrollPane>
+                    </content>
+                  </Tab>
+                  <Tab text="Covid">
+                    <content>
+                        <ScrollPane>
+                            <VBox fx:id="vCovid"></VBox>
+                        </ScrollPane>
+                    </content>
+                  </Tab>
+                  <Tab text="Others">
+                    <content>
+                        <ScrollPane>
+                            <VBox fx:id="vOthers"></VBox>
+                        </ScrollPane>
+                    </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children></VBox>
     </children>
 </StackPane>

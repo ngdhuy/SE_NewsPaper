@@ -13,7 +13,7 @@ public class NguoiLaoDongNewest extends Newest {
         super();
     }
 
-    public NguoiLaoDongNewest(String urlSource) throws Exception {
-        super(urlSource);
+    public NguoiLaoDongNewest(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

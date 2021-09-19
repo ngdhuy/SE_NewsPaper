@@ -13,7 +13,7 @@ public class NguoiLaoDongHealth extends Health {
         super();
     }
 
-    public NguoiLaoDongHealth(String urlSource) throws Exception {
-        super(urlSource);
+    public NguoiLaoDongHealth(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

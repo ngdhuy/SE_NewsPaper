@@ -14,7 +14,7 @@ public abstract class Entertainment extends Category {
         super.setName("Entertainment");
     }
 
-    public Entertainment(String urlSource) throws Exception {
-        super("Entertainment", urlSource);
+    public Entertainment(String urlSource, String brand) throws Exception {
+        super("Entertainment", urlSource, brand);
     }
 }

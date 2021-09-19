@@ -13,7 +13,7 @@ public class TuoiTreEntertainment extends Entertainment {
         super();
     }
 
-    public TuoiTreEntertainment(String urlSource) throws Exception {
-        super(urlSource);
+    public TuoiTreEntertainment(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

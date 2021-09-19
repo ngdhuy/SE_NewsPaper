@@ -17,10 +17,10 @@ public abstract class Category {
         this.feed = new Feed();
     }
 
-    public Category(String name, String urlSource) throws Exception {
+    public Category(String name, String urlSource, String brand) throws Exception {
         this.name = name;
         this.urlSource = urlSource;
-        this.feed = new Feed(urlSource);
+        this.feed = new Feed(urlSource, brand);
     }
 
     public String getName() {

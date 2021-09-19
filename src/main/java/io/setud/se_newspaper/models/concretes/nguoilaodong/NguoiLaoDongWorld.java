@@ -13,7 +13,7 @@ public class NguoiLaoDongWorld extends World {
         super();
     }
 
-    public NguoiLaoDongWorld(String urlSource) throws Exception {
-        super(urlSource);
+    public NguoiLaoDongWorld(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

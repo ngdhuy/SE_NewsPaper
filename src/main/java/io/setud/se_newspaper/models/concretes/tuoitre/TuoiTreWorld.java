@@ -13,7 +13,7 @@ public class TuoiTreWorld extends World {
         super();
     }
 
-    public TuoiTreWorld(String urlSource) throws Exception {
-        super(urlSource);
+    public TuoiTreWorld(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

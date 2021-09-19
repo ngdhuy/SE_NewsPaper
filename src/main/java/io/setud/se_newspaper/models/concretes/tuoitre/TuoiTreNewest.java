@@ -13,7 +13,7 @@ public class TuoiTreNewest extends Newest {
         super();
     }
 
-    public TuoiTreNewest(String urlSource) throws Exception {
-        super(urlSource);
+    public TuoiTreNewest(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

@@ -13,7 +13,7 @@ public class VnExpressEntertainment extends Entertainment {
         super();
     }
 
-    public VnExpressEntertainment(String urlSource) throws Exception {
-        super(urlSource);
+    public VnExpressEntertainment(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

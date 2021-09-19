@@ -13,7 +13,7 @@ public class VtcNewsHealth extends Health {
         super();
     }
 
-    public VtcNewsHealth(String urlSource) throws Exception {
-        super(urlSource);
+    public VtcNewsHealth(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

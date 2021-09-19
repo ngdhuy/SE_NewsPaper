@@ -13,7 +13,7 @@ public class VnExpressPolitics extends Politics {
         super();
     }
 
-    public VnExpressPolitics(String urlSource) throws Exception {
-        super(urlSource);
+    public VnExpressPolitics(String urlSource, String brand) throws Exception {
+        super(urlSource, brand);
     }
 }

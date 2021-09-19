@@ -14,7 +14,7 @@ public abstract class Newest extends Category {
         super.setName("Newest");
     }
 
-    public Newest(String urlSource) throws Exception {
-        super("Newest", urlSource);
+    public Newest(String urlSource, String brand) throws Exception {
+        super("Newest", urlSource, brand);
     }
 }

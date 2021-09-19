@@ -1,10 +1,8 @@
 package io.setud.se_newspaper.controllers;
 
-import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.ProgressBar;
-import javafx.scene.image.ImageView;
 import javafx.scene.layout.StackPane;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -25,7 +23,7 @@ public class SplashScreenController implements Initializable {
     private ProgressBar progressBar;
     public static ProgressBar progressBarStatic;
 
-    public static int loadingTime = 5000;    //milisecond
+    public static int loadingTime = 20000;    //milisecond
 
     class ShowSplashScreen extends Thread {
         @Override
