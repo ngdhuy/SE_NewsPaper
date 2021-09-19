@@ -23,7 +23,7 @@ public class SplashScreenController implements Initializable {
     private ProgressBar progressBar;
     public static ProgressBar progressBarStatic;
 
-    public static int loadingTime = 20000;    //milisecond
+    public static int loadingTime = 5000;    //milisecond
 
     class ShowSplashScreen extends Thread {
         @Override

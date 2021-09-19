@@ -109,12 +109,12 @@ public class MainScreenController implements Initializable {
             StackPane pane = FXMLLoader.load(Main.class.getResource("SplashScreen.fxml"));
             this.root.getChildren().setAll(pane);
 
-            FadeTransition fadeIn = new FadeTransition(Duration.seconds(10), pane);
+            FadeTransition fadeIn = new FadeTransition(Duration.seconds(3), pane);
             fadeIn.setFromValue(0);
             fadeIn.setToValue(1);
             fadeIn.setCycleCount(1);
 
-            FadeTransition fadeOut = new FadeTransition(Duration.seconds(10), pane);
+            FadeTransition fadeOut = new FadeTransition(Duration.seconds(3), pane);
             fadeOut.setFromValue(1);
             fadeOut.setToValue(0);
             fadeOut.setCycleCount(1);
@@ -166,7 +166,6 @@ public class MainScreenController implements Initializable {
             for(News news : category.getFeed().getLstNews()) {
                 VBox vBox = new VBox();
                 vBox.getStyleClass().add("box");
-
                 Image img;
                 if (news.getUrlThumbnail().length() > 0)
                     img = new Image(news.getUrlThumbnail());
@@ -233,6 +232,12 @@ public class MainScreenController implements Initializable {
                     i = 0;
                 }
 
+                if(news.getBrand().equals("VnExpress") && temp == 1)
+                {
+                    temp = 0;
+                    break;
+                }
+
                 if((++temp) >= 10) {
                     temp = 0;
                     break;
@@ -240,6 +245,4 @@ public class MainScreenController implements Initializable {
             }
         }
     }
-
-
 }

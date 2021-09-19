@@ -31,28 +31,6 @@ public class Loader {
     }
 
     public void LoadData() throws Exception {
-        VnExpress vnExpress = new VnExpress("https://s1.vnecdn.net/vnexpress/restruct/i/v427/v2_2019/pc/graphics/logo.svg", "https://vnexpress.net/");
-        vnExpress.setUrlSourceBusiness("https://vnexpress.net/rss/kinh-doanh.rss");
-        vnExpress.setUrlSourceCovid("");
-        vnExpress.setUrlSourceEntertainment("https://vnexpress.net/rss/giai-tri.rss");
-        vnExpress.setUrlSourceHealth("https://vnexpress.net/rss/suc-khoe.rss");
-        vnExpress.setUrlSourceNewest("https://vnexpress.net/rss/tin-moi-nhat.rss");
-        vnExpress.setUrlSourceOthers("https://vnexpress.net/rss/giao-duc.rss");
-        vnExpress.setUrlSourcePolitics("https://vnexpress.net/rss/thoi-su.rss");
-        vnExpress.setUrlSourceSports("https://vnexpress.net/rss/the-thao.rss");
-        vnExpress.setUrlSourceTechnology("https://vnexpress.net/rss/so-hoa.rss");
-        vnExpress.setUrlSourceWorld("https://vnexpress.net/rss/the-gioi.rss");
-        this.lstBusiness.add(vnExpress.createBusiness());
-        this.lstCovid.add(vnExpress.createCovid());
-        this.lstEntertainment.add(vnExpress.createEntertainment());
-        this.lstHealth.add(vnExpress.createHealth());
-        this.lstNewest.add(vnExpress.createNewest());
-        this.lstOthers.add(vnExpress.createOthers());
-        this.lstPolitics.add(vnExpress.createPolitics());
-        this.lstSports.add(vnExpress.createSports());
-        this.lstTechnology.add(vnExpress.createTechnology());
-        this.lstWorld.add(vnExpress.createWorld());
-        
         ThanhNien thanhNien = new ThanhNien("https://static.thanhnien.vn/v2/App_Themes/images/logo-tn-2.png", "https://thanhnien.vn/");
         thanhNien.setUrlSourceBusiness("https://thanhnien.vn/rss/tai-chinh-kinh-doanh.rss");
         thanhNien.setUrlSourceCovid("https://thanhnien.vn/rss/thoi-su/vuot-qua-covid-19.rss");
@@ -140,5 +118,27 @@ public class Loader {
         this.lstSports.add(nguoiLaoDong.createSports());
         this.lstTechnology.add(nguoiLaoDong.createTechnology());
         this.lstWorld.add(nguoiLaoDong.createWorld());
+
+        VnExpress vnExpress = new VnExpress("https://s1.vnecdn.net/vnexpress/restruct/i/v427/v2_2019/pc/graphics/logo.svg", "https://vnexpress.net/");
+        vnExpress.setUrlSourceBusiness("https://vnexpress.net/rss/kinh-doanh.rss");
+        vnExpress.setUrlSourceCovid("");
+        vnExpress.setUrlSourceEntertainment("https://vnexpress.net/rss/giai-tri.rss");
+        vnExpress.setUrlSourceHealth("https://vnexpress.net/rss/suc-khoe.rss");
+        vnExpress.setUrlSourceNewest("https://vnexpress.net/rss/tin-moi-nhat.rss");
+        vnExpress.setUrlSourceOthers("https://vnexpress.net/rss/giao-duc.rss");
+        vnExpress.setUrlSourcePolitics("https://vnexpress.net/rss/thoi-su.rss");
+        vnExpress.setUrlSourceSports("https://vnexpress.net/rss/the-thao.rss");
+        vnExpress.setUrlSourceTechnology("https://vnexpress.net/rss/so-hoa.rss");
+        vnExpress.setUrlSourceWorld("https://vnexpress.net/rss/the-gioi.rss");
+        this.lstBusiness.add(vnExpress.createBusiness());
+        this.lstCovid.add(vnExpress.createCovid());
+        this.lstEntertainment.add(vnExpress.createEntertainment());
+        this.lstHealth.add(vnExpress.createHealth());
+        this.lstNewest.add(vnExpress.createNewest());
+        this.lstOthers.add(vnExpress.createOthers());
+        this.lstPolitics.add(vnExpress.createPolitics());
+        this.lstSports.add(vnExpress.createSports());
+        this.lstTechnology.add(vnExpress.createTechnology());
+        this.lstWorld.add(vnExpress.createWorld());
     }
 }
